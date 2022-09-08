@@ -1,0 +1,13 @@
+const ADD_USER = "ADD_USER";
+const GET_BY_ID = "GET_BY_ID";
+const UPDATE_USER = "UPDATE_USER";
+const REMOVE_USER = "REMOVE_USER";
+
+
+
+export {
+   ADD_USER,
+   GET_BY_ID,
+   UPDATE_USER,
+   REMOVE_USER
+}
