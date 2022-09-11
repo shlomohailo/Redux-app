@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import MyForm from "../My-Form/My-Form";
 import "./Home.css";
 
- export const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
   return { users: state.users };
 };
 
@@ -15,4 +15,4 @@ function Home(props) {
   );
 };
 
-export default connect(mapStateToProps) (Home);
+export default connect(mapStateToProps)(Home);

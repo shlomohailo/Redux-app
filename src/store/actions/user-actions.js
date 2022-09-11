@@ -1,7 +1,7 @@
-import { ADD_USER,GET_BY_ID,REMOVE_USER,UPDATE_USER } from "../types/user-types"
+import { CREATE_USER, USER } from "./user-types"
 
 const createUserAction = (userObj) => {
-    return { type: ADD_USER, payload: userObj }
+    return { type: CREATE_USER, payload: userObj }
 }
 
 const userAction = () => {
