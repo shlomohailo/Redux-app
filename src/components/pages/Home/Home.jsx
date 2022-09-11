@@ -3,7 +3,7 @@ import MyForm from "../My-Form/My-Form";
 import "./Home.css";
 
 export const mapStateToProps = (state) => {
-  return { users: state.users };
+  return { users: state.usersReducer };
 };
 
 function Home(props) {
